@@ -32,7 +32,7 @@
     [clmanager startUpdatingLocation];
     
     
-    
+    NSLog(@"branch");
     
     NSLog(@"Lat%f--Long:-%f",clmanager.location.coordinate.latitude,clmanager.location.coordinate.longitude);
     [self mapView];
