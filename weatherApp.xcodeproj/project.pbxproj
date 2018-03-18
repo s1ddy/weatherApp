@@ -15,6 +15,8 @@
 		1830D5CA2054F7DE002B2480 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1830D5C92054F7DE002B2480 /* main.m */; };
 		1830D5D42054F7DE002B2480 /* weatherAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1830D5D32054F7DE002B2480 /* weatherAppTests.m */; };
 		1830D5DF2054F7DF002B2480 /* weatherAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1830D5DE2054F7DF002B2480 /* weatherAppUITests.m */; };
+		1830D5EE2054FCAA002B2480 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1830D5ED2054FCAA002B2480 /* CoreLocation.framework */; };
+		1830D5F02054FCCB002B2480 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1830D5EF2054FCCB002B2480 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		1830D5DA2054F7DF002B2480 /* weatherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weatherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1830D5DE2054F7DF002B2480 /* weatherAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weatherAppUITests.m; sourceTree = "<group>"; };
 		1830D5E02054F7DF002B2480 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1830D5ED2054FCAA002B2480 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1830D5EF2054FCCB002B2480 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1830D5F02054FCCB002B2480 /* MapKit.framework in Frameworks */,
+				1830D5EE2054FCAA002B2480 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +91,7 @@
 				1830D5D22054F7DE002B2480 /* weatherAppTests */,
 				1830D5DD2054F7DF002B2480 /* weatherAppUITests */,
 				1830D5B82054F7DE002B2480 /* Products */,
+				1830D5EC2054FCA9002B2480 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +137,15 @@
 				1830D5E02054F7DF002B2480 /* Info.plist */,
 			);
 			path = weatherAppUITests;
+			sourceTree = "<group>";
+		};
+		1830D5EC2054FCA9002B2480 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1830D5EF2054FCCB002B2480 /* MapKit.framework */,
+				1830D5ED2054FCAA002B2480 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
